@@ -1,3 +1,6 @@
+CONFIG_MODULE_SIG=n
+CONFIG_MODULE_FORCE_UNLOAD=yes
+
 obj-m += hello.o
 
 PWD := $(CURDIR)
