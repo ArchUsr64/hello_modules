@@ -1,0 +1,4 @@
+-I/usr/lib/modules/6.4.11-arch2-1/build/include 
+-I/usr/lib/modules/6.4.11-arch2-1/build/arch/x86/include/generated
+-I/usr/lib/modules/6.4.11-arch2-1/build/include/linux/compiler_types.h 
+
