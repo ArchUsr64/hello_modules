@@ -1,7 +1,10 @@
 #include <linux/module.h>
 
-int init_module(void) { return 0; }
+int start(void) { return 0; }
 
-void cleanup_module(void) {}
+void cleanup(void) {}
+
+module_init(start);
+module_exit(cleanup);
 
 MODULE_LICENSE("GPL");
